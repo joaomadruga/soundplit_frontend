@@ -1,5 +1,7 @@
-export default function Teste() {
+import Input from "../../../components/input";
+
+export default function Login() {
     return (
-        <h1>hello world</h1>
+        <Input text={"test"} />
     )
 }
